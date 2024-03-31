@@ -17,12 +17,11 @@
 import themeProvider from "@/helpers/setThemeSettings";
 
 enum themeIconUrl {
-  iconUrl = '/src/assets/icons/',
-  logoUrl = '/src/assets/logo/'
+  iconUrl = '@/src/assets/icons/',
+  logoUrl = '@/src/assets/logo/'
 }
 
 const { toggle, name, names } = themeProvider();
-
 
 </script>
 
