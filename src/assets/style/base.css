@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;500;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+SC:wght@500&display=swap');
+
+[data-theme='white'] {
+    --primary-text: #121212;
+    --primary-background: #FFFFFF;
+    --inputBackdround: #FFFFFF;
+    --inputBorder: #DEDEDE;
+    --inputBorderFocus: #575757;
+    --sortBackground: transparent;
+    --accentText: #9B4B4B;
+    --filterIcon: rgba(87, 87, 87, 1);
+    --clearBtn: #9C9C9C;
+    --selectBack: #FFFFFF;
+    --selectBorder: #DEDEDE;
+    --selectText: #9C9C9C;
+    --emptyResponseTitle: #575757;
+    --currentPageBackground: #F3F3F3;
+}
+
+[data-theme='dark'] {
+    --primary-text: #DEDEDE;
+    --primary-background: #121212;
+    --inputBackdround: #1A1818;
+    --inputBorder: transparent;
+    --inputBorderFocus: #DEDEDE;
+    --sortBackground: #1A1818;
+    --accentText: #AB8956;
+    --filterIcon: #DEDEDE;
+    --clearBtn:#575757;
+    --selectBack: #1A1818;
+    --selectBorder: transparent;
+    --selectText: #575757;
+    --emptyResponseTitle: #DEDEDE;
+    --currentPageBackground: #1A1818;
+}
+
+#app {
+    min-height: 100%;
+    font-family: 'Inter', sans-serif;
+    overflow: hidden;
+}
+.container {
+    max-width: 1255px;
+    padding: 0 15px;
+    overflow: hidden;
+    margin: 0 auto;
+}
+.cursor-pointer {
+    cursor: pointer;
+}
